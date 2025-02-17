@@ -1,10 +1,49 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  size: 96px;
-  line-height: 144px;
+.container {
+  max-width: 1600px;
+  margin: auto;
 }
 
 body {
-  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.747)),
+    url("images/ski\ resort1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 286px;
+  padding-bottom: 286px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  color: #08416c;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 32px;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
