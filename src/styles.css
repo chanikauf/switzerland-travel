@@ -7,6 +7,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+/*Header*/
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.747)),
     url("images/ski\ resort1.png");
@@ -48,6 +54,44 @@ header a {
   text-transform: uppercase;
 }
 
+/*Footer*/
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.747)), url('images/ski\ resort2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  gap: 64px;
+  padding: 100px;
+}
+
+.grid-3-cols {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+
+/*Header Responsive*/
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
@@ -64,5 +108,9 @@ header a {
 
   header h3 {
     font-size: 16px;
+  }
+
+  .grid {
+    display: block;
   }
 }
