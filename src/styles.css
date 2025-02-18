@@ -47,3 +47,22 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+
+  header h2 {
+    font-size: 28px;
+  }
+
+  header h3 {
+    font-size: 16px;
+  }
+}
