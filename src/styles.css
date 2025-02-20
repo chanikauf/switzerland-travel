@@ -60,6 +60,9 @@ header a {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-even-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 main img {
   width: 100%;
   border-radius: 5px;
@@ -72,6 +75,7 @@ main h2 {
   opacity: 30%;
   color: #08416c;
   margin: 0;
+  text-transform: uppercase;
 }
 
 main h3 {
@@ -87,6 +91,62 @@ main p {
   color: #08416c;
   font-size: 16px;
   line-height: 24px;
+}
+
+section.secondary {
+  padding-top: 100px;
+  background-color: #08416c1a;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #08416c;
+  text-align: left;
+}
+
+.card-info {
+  padding: 32px;
+}
+
+.card h4 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.card p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card h5 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  size: 13px;
+  line-height: 20px;
+}
+
+.card a {
+  color: #fff;
+}
+
+.card .button {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #08416c;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
 }
 /*Footer*/
 
