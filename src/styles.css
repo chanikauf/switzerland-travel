@@ -156,8 +156,9 @@ section.secondary {
 
 .embed {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
 }
+
 /*Footer*/
 
 footer {
@@ -221,5 +222,13 @@ footer a {
   .grid {
     display: block;
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
