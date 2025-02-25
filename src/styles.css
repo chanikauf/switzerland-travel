@@ -148,6 +148,16 @@ section.secondary {
   width: 100%;
   display: block;
 }
+
+.card-header.grid {
+  gap: 0;
+  padding: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
 /*Footer*/
 
 footer {
